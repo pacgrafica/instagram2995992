@@ -17,3 +17,106 @@
             margin: 5px 0;
             background-color: rgba(255, 255, 255, 0.5);
         }
+
+            
+.post {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+    .left-header {
+      display: flex;
+      align-items: center;
+    }
+    
+    .right-header {
+      display: flex;
+      align-items: center;
+      gap: 8px; /* Espacio entre •, 7h y ⋮ */
+      color: gray;
+      font-size: 14px;
+    }
+    
+    .dot {
+      font-size: 18px;
+      line-height: 1;
+    }
+    
+    .menu {
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .profile-pic {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: none;
+      margin-right: 10px;
+    }
+    
+    .profile-pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .username {
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+    
+    .verified {
+      width: 16px;
+      height: 16px;
+      margin-left: 5px;
+    }
+    
+    .main-img {
+      width: 100%;
+      border-top: 1px solid #dbdbdb;
+      border-bottom: 1px solid #dbdbdb;
+    }
+    
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 12px;
+      margin-top: 10px;
+    }
+    
+    .left-icons i {
+      font-size: 24px;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+    
+    .right-icon i {
+      font-size: 24px;
+      cursor: pointer;
+    }
+    
+    .likes, .caption {
+      padding: 0;
+    }
+    
+    .caption b {
+      margin-right: 5px;
+    }
+    
+    .verificado img {
+    width: 16px;
+    height: auto;
+    vertical-align: middle;
+    }
