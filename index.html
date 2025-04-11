@@ -5,30 +5,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>instagram</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Caja 1 - Siempre visible -->
-            <div id="caja1" class="columna d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none"></div>
-            <div id="caja11" class="columna d-none d-md-block col-md-2 col-lg-2 col-xl-2 col-xxl-2">kathe2912</div>
-            
-            <!-- Contenedor de Caja 2 y Caja 3 -->
-            <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
-                <div class="row">
-                    <div id="caja2" class="columna d-xs-block d-md-none d-lg-none d-xl-none d-xxl-none"></div>
-                    <div id="caja3" class="columna col-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6">
-                        <h2>Origin</h2>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Caja 1 - Móvil -->
+                <div id="caja1" class="columna d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none"></div>
+                
+                <!-- Caja 11 - Escritorio/Tablet -->
+                <div id="caja11" class="columna d-none d-md-block col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                    <div class="instagram-sidebar">
+                        <!-- Logo Instagram -->
+                        <div class="instagram-logo1 d-md-block d-lg-block d-xl-none d-xxl-none align-items-center sidebar-item">
+                            <img src="imagenes/logo.png" alt="logo" style="height: 30px; " >
+                        </div>
+                        <div class="instagram-logo d-md-none d-lg-none d-xl-block d-xxl-block">
+                            <img src="imagenes/Instagram_logo.svg.png" alt="logoinstagram" style="height: 30px;">
+                        </div>
+                        
+                        <!-- Menú principal -->
+                        <a href="#" class="sidebar-item active">
+                            <i class="bi bi-house-door-fill"></i>
+                            <span>Inicio</span>
+                        </a>
+                        
+                        <a href="#" class="sidebar-item">
+                            <i class="bi bi-search"></i>
+                            <span>Buscar</span>
+                        </a>
+                        
+                        <a href="#" class="sidebar-item">
+                            <i class="bi bi-compass"></i>
+                            <span>Explorar</span>
+                        </a>
+                        
+                        <a href="#" class="sidebar-item">
+                            <i class="bi bi-film"></i>
+                            <span>Reels</span>
+                        </a>
+                        
+                        <a href="#" class="sidebar-item">
+                            <i class="bi bi-chat"></i>
+                            <span>Mensajes</span>
+                        </a>
+                        
+                        <a href="#" class="sidebar-item">
+                            <i class="bi bi-heart"></i>
+                            <span>Notificaciones</span>
+                        </a>
+                        
+                        <a href="#" class="sidebar-item">
+                            <i class="bi bi-plus-square"></i>
+                            <span>Crear</span>
+                        </a>
+                        
+                        <a href="#" class="sidebar-item">
+                            <i class="bi bi-person"></i>
+                            <span>Perfil</span>
+                        </a>
+                        
+                        <div class="sidebar-divider"></div>
+                        
+                        <!-- Menú secundario -->
+                        <a href="#" class="sidebar-item">
+                            <i class="bi bi-grid"></i>
+                            <span>Panel</span>
+                        </a>
+                        
+                        <a href="#" class="sidebar-item">
+                            <i class="bi bi-collection-play"></i>
+                            <span>Al Studio</span>
+                        </a>
+                        
+                        <a href="#" class="sidebar-item">
+                            <i class="bi bi-threads"></i>
+                            <span>Threads</span>
+                        </a>
+                        
+                        <div class="sidebar-divider"></div>
+                        
+                        <!-- Más opciones -->
+                        <div class="more-options">
+                            <a href="#" class="sidebar-item" id="more-button">
+                                <i class="bi bi-list"></i>
+                                <span>Más</span>
+                            </a>
+                        </div>
                     </div>
-                    <div id="caja33" class="columna col-12 d-md-none d-lg-none d-xl-block col-xl-6 col-xxl-6"></div>
+                </div>
+                
+                <!-- Contenedor principal -->
+                <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                    <div class="row">
+                        <div id="caja2" class="columna d-xs-block d-md-none d-lg-none d-xl-none d-xxl-none"></div>
+                        <div id="caja3" class="columna col-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6"></div>
+                        <div id="caja33" class="columna d-xs-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-6 col-xxl-6"></div>
+                        <div id="caja34" class="columna col-xs-12 d-md-none d-lg-none d-xl-none d-xl-none d-xxl-none">
+                            <nav class="navbar navbar-instagram fixed-bottom navbar-light">
+                                <div class="container-fluid justify-content-around">
+                                    <a href="#" class="nav-link"><i class="bi bi-house-door-fill"></i></a>
+                                    <a href="#" class="nav-link"><i class="bi bi-search"></i></a>
+                                    <a href="#" class="nav-link"><i class="bi bi-plus-square"></i></a>
+                                    <a href="#" class="nav-link"><i class="bi bi-film"></i></a>
+                                    <a href="#" class="nav-link"><i class="bi bi-person-fill"></i></a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+     <!-- Menú desplegable "Más" -->
+     <div class="more-menu" id="more-menu">
+        <!-- Encabezado del menú -->
+        <div class="menu-header">
+            <h3 class="menu-title">Configuración</h3>
+        </div>
+        
+        <!-- Opciones de menú -->
+        <div class="menu-item active-item">
+            <i class="bi bi-clock"></i>
+            <span>Tu actividad</span>
+        </div>
+        
+        <div class="menu-item">
+            <i class="bi bi-bookmark"></i>
+            <span>Guardado</span>
+        </div>
+        
+        <div class="menu-item">
+            <i class="bi bi-moon"></i>
+            <span>Cambiar apariencia</span>
+        </div>
+        
+        <div class="menu-item">
+            <i class="bi bi-exclamation-triangle"></i>
+            <span>Reportar un problema</span>
+        </div>
+        
+        <!-- Divisor -->
+        <div class="menu-divider"></div>
+        
+        <!-- Cambiar de cuenta -->
+        <div class="menu-item">
+            <i class="bi bi-arrow-left-right"></i>
+            <span>Cambiar de cuenta</span>
+        </div>
+        
+        <!-- Divisor -->
+        <div class="menu-divider"></div>
+        
+        <!-- Salir (en rojo) -->
+        <div class="menu-item danger-item">
+            <i class="bi bi-box-arrow-right"></i>
+            <span>Salir</span>
+        </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script>
+        // Mostrar/ocultar menú al hacer clic en "Más"
+        document.getElementById('more-button').addEventListener('click', function(e) {
+            e.preventDefault();
+            const menu = document.getElementById('more-menu');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        });
     
-</body>
+        // Ocultar menú al hacer clic fuera de él
+        document.addEventListener('click', function(e) {
+            const menu = document.getElementById('more-menu');
+            const moreButton = document.getElementById('more-button');
+            
+            if (e.target !== moreButton && !moreButton.contains(e.target) && 
+                e.target !== menu && !menu.contains(e.target)) {
+                menu.style.display = 'none';
+            }
+        });
+    </script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ </body>
 </html>
