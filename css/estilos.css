@@ -1,0 +1,19 @@
+        /* Colores y estilos */
+        #caja1 { background-color: #007bff; } 
+        #caja11 { background-color: #007bff; } /* Azul */
+        #caja2 { background-color: #17a2b8; 
+        height: 100px;} /* Turquesa */
+        #caja3 { background-color: #28a745; height: 1080px; } /* Verde */
+        #caja33 { background-color: #2878a7; }
+        #caja4 { background-color: #c2bf1f; }
+        .container-fluid { padding: 0; }
+        .row { margin: 0; }
+        .columna {
+            min-height: 100px;
+            padding: 10px;
+        }
+        .item {
+            height: 20px;
+            margin: 5px 0;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
