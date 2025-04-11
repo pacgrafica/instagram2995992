@@ -4,7 +4,7 @@
         #caja2 { background-color: #17a2b8; 
         height: 100px;} /* Turquesa */
         #caja3 { background-color: #28a745; height: 1080px; } /* Verde */
-        #caja33 { background-color: #2878a7; }
+        #caja33 { background-color: #000000; }
         #caja4 { background-color: #c2bf1f; }
         .container-fluid { padding: 0; }
         .row { margin: 0; }
@@ -17,3 +17,139 @@
             margin: 5px 0;
             background-color: rgba(255, 255, 255, 0.5);
         }
+.contenedorExterno{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.cajaPrincipal1{
+}
+.minP11{
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+.us01{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    float: left;
+}
+.b2995992{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.txt01{
+    font-weight: lighter;
+    font-size: 13px;
+}
+.minP12{
+    width: 50%;
+    padding-left: 10px;
+    float: left;
+    color: white;
+}
+.minP13{
+    padding-right: 80px;
+}
+.btnV{
+    text-decoration: none;
+}
+.cajaPrincipal2{
+    width: 100%;
+    padding-top: 50px;
+}
+.contPequ1{
+    float: left;
+    margin-right: 90px;
+    color: rgb(146, 147, 147); 
+}
+.sugPt{
+   color: rgb(146, 147, 147); 
+}
+.contPequ2{
+    margin-left: 70px;
+    padding-left: 50px;
+}
+.btnW{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.usuarios1{
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+}
+.caj3p01{
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+.caj3p02{
+    width: 50%;
+    padding-left: 10px;
+    float: left;
+    color: white;
+}
+.caj3p03{
+    margin-left: 150px;
+}
+.usuarios2{
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+}
+.usuarios3{
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+}
+.usuarios4{
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+}
+.usuarios5{
+    width: 100%;
+    padding-top: 10px;
+    float: left;
+}
+.cajaPrincipal4{
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 70px;
+    float: left;
+}
+.fLinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .fLinks li {
+    display: inline;
+    color: #a8a8a8;
+    font-size: 12px;
+  }
+  
+  .fLinks li a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 4px;
+  }
+  
+  .fLinks li::after {
+    content: " ·";
+    color: #a8a8a8;
+  }
+  
+  .fLinks li:last-child::after {
+    content: "";
+  }
+  .txtFn{
+    color: #a8a8a8;
+    text-align: center;
+  }
