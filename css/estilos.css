@@ -17,3 +17,161 @@
             margin: 5px 0;
             background-color: rgba(255, 255, 255, 0.5);
         }
+
+
+        body {
+
+            font-family: Arial, sans-serif;
+        
+            background-color: #000;
+        
+            color: #fff;
+        
+            display: flex;
+               
+            padding: 20px;
+
+            
+        
+        }
+        
+        
+        
+        .insta-post {
+        
+            background-color:white;
+        
+            border-radius: 10px;
+                    
+            width: 360px;
+        
+            overflow: hidden;
+
+                  
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        
+        }
+        
+        
+        
+        .header {
+        
+            display: flex;
+               
+            padding: 10px;
+
+            color: #000;
+        
+        }
+        
+        
+        
+        .profile-pic {
+        
+            width: 40px;
+        
+            height: 40px;
+        
+            border-radius: 50%;
+        
+        }
+        
+        
+        
+        .user-info {
+        
+            flex: 1;
+        
+            margin-left: 10px;
+
+                    
+        }
+        
+        
+        
+        .username {
+        
+            font-weight: bold;
+        
+            display: block;
+
+        
+        }
+        
+        
+            
+        
+        
+        .dot-menu {
+        
+            font-size: 20px;
+        
+            cursor: pointer;
+        
+        }
+        
+        
+        
+        .post-image {
+        
+            width: 100%;
+        
+            display: block;
+        
+        }
+        
+        
+        
+        .actions {
+        
+            display: flex;
+        
+            justify-content: space-between;
+        
+            padding: 10px;
+        
+            font-size: 40px;
+
+                    
+        }
+        
+        
+        
+        .bookmark {
+        
+            margin-left: auto;
+        
+        }
+        
+        
+        
+        .caption {
+        
+            padding: 0 10px 10px 10px;
+        
+        }
+        
+        
+        
+        .caption p {
+        
+            margin: 0;
+        
+        }
+        
+        
+        
+        .time {
+        
+            display: block;
+        
+            font-size: 12px;
+        
+            color: #888;
+        
+            margin-top: 5px;
+        
+        }
+       
+
+                
